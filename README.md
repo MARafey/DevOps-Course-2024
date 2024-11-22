@@ -68,6 +68,35 @@ Both Pulumi and Terraform let you set up cloud resources (like servers and datab
 - **Terraform**: The well-established tool with lots of support.  
 - **Pulumi**: The modern option that works like your usual programming.
 
+
+## Blog 3
+This blog explains how to use GitHub Actions to automate the process of testing and deploying a Flask application. GitHub Actions is a tool that helps developers set up automatic workflows for tasks like checking code for errors, running tests, and deploying the app to a server. 
+
+Here’s a simple breakdown:
+
+1. **Flask App Setup**: You first need a working Flask application with necessary files, such as `app.py` and `requirements.txt`, which lists the app's dependencies.
+
+2. **GitHub Actions Workflow**: You create a YAML file (`main.yml`) in your repository to define the steps for automation. The main steps include:
+   - **Triggering** the workflow when changes are made to the code.
+   - **Setting up Python** for your application.
+   - **Installing dependencies** (like Flask).
+   - **Running tests** to make sure everything works correctly.
+   - **Deploying** the app to a platform like AWS or Heroku after the tests pass.
+
+3. **Benefits**: 
+   - The process ensures your code is always tested and ready for deployment.
+   - It speeds up development by automating tasks.
+   - It helps prevent errors by catching problems early.
+
+4. **Customization**: You can also add more features, like using Docker or deploying to other cloud services, to make the automation work for your specific needs.
+
+The blog emphasizes how GitHub Actions makes the deployment process more efficient, helping developers focus on coding instead of manual tasks.
+
+### Links
+- [Medium](https://medium.com/@m.a.rafey1215/automating-deployments-with-github-actions-for-a-flask-app-5938caa39c86)
+- [Github](https://github.com/MARafey/GitHub-Actions-with-Flask-App) 
+
+
 ## Contacts
 
 ## **🌐 Platforms**  
